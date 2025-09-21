@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DOM</title>
+
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bytesized&display=swap" rel="stylesheet">
+
+        <style>
+            * {
+                margin: 0; padding: 0;
+                box-sizing: border-box;
+            }
+
+            .container {
+                width: 100%;
+                min-height: 100dvh;
+
+                background: #0e022c;
+            }
+
+            .rock-paper-scissors {
+                background-color: #2a175c;
+                width: 100%; height: 70px;
+                top: 0; left: 0;
+                margin: auto;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .title {
+                display: flex;
+                align-items: center;
+                
+                /* background-color: seagreen; */
+
+                height: 100%;
+                
+            }
+
+            .title h1 {
+                text-transform: uppercase;
+                font-family: 'Bytesized';
+                font-size: 40px;
+
+                color: #fefefe;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="rock-paper-scissors">
+                <div class="title">
+                    <h1>rock paper scissors<h1>
+                </div>
+            </div>
+
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
